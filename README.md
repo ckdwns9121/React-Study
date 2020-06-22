@@ -1,3 +1,7 @@
+## React Study
+
+props와 state 상태관리 및 state 변경시 shouldComponentUpdate를 이용한 view 재 랜더 연습
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
