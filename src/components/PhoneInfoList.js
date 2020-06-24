@@ -8,6 +8,8 @@ class PhoneInfoList extends Component {
       onRemove: () => console.warn('onRemove not defined'),
       onUpdate: () =>console.warn('onRemove not defined')
     }
+
+    //렌더 최적화
     shouldComponentUpdate(nextProps, nextState) {
         return nextProps.data !== this.props.data;
       }

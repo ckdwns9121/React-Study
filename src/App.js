@@ -33,6 +33,7 @@ class App extends React.Component{
   }
 
   handleUpdate = (id, data) => {
+    console.log("업데이트");
     const { information } = this.state;
     this.setState({
       information: information.map(
