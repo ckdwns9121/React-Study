@@ -29,7 +29,7 @@ class App extends React.Component{
     this.setState({
       information: information.filter(info => info.id !== id)
     })
-    console.log("delete");
+    console.log(`delete${id}`);
   }
 
   handleUpdate = (id, data) => {
